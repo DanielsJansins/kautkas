@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
 
                 int textbook1 = int.Parse(textbox1.Text);
@@ -35,7 +35,16 @@ namespace WindowsFormsApp1
                 MessageBox.Show("Kopējā summa ir: " + sum);
             }
 
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 
     }
 }
